@@ -2,7 +2,7 @@
 
 ![Moving away from the framework](https://raw.githubusercontent.com/shamscorner/images/main/bloc-pattern.png)
 
-A Vue 3 project with Typescript to mimic the Bloc architecture pattern. (Flutter way)
+A Vue 3 project with Typescript to mimic the Bloc architecture pattern (Flutter way). If you are not familiar with Vue, you can still use the `core` package to whatever frontend framework you like.
 
 If you want to create a frontend application, there are many frameworks to choose from (React, Vue.js, Angular, Svelte, etc.). Let's say you select one of these frameworks and start developing your project. But on the long run if you want to change with something else, you have to change the entire codebase from start to finish. And that's why moving away from frameworks and separating the core business logics will give you the ultimate power to avoid those mistakes in the future.
 
