@@ -1,5 +1,4 @@
-# bloc-vue-3-clean-pattern
-
+# Separating business logic from UI frameworks (React, Vue, Svelte, Angular, etc.)
 
 ![Moving away from the framework](https://raw.githubusercontent.com/shamscorner/images/main/bloc-pattern.png)
 
