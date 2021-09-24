@@ -1,0 +1,19 @@
+{
+  "name": "vue-bloc-core",
+  "version": "1.0.0",
+  "description": "The core logic",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "tsc --watch",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Shamim Hossain <hossains159@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.2.1",
+    "ts-jest": "^27.0.5"
+  }
+}

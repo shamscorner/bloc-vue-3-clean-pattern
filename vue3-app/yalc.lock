@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "vue-bloc-core": {
+      "signature": "3eaa75bb46f54b561487661fe896261f",
+      "file": true
+    }
+  }
+}

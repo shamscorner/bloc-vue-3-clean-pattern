@@ -1,0 +1,33 @@
+button:
+  about: About
+  back: Back
+  go: GO
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+  choose-plans: Choose Plans
+intro:
+  desc: Opinionated Vite Starter Template. Customized to support modular architecture pattern.
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  aka: Also known as
+  whats-your-name: What's your name?
+  whats-your-email: What's your email?
+  fill-up-form: Fill up the form to proceed
+not-found: Not found
+order:
+  order-summary: Order Summary
+  description: You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+  plan: Plan
+  year: year
+  month: month
+  week: week
+  plans:
+    annual: Annual
+    monthly: Monthly
+    weekly: Weekly
+  confirm-selected-plan: Confirm Selected Plan
+  cancel-order: Cancel Order
+  thanks-message: Thank you for your interest!
+  plan-contact-info: One of our employee will contact with you soon. You can grab a cup of coffee in the meantime.
+no-data-saved: This demo project is not making any external API request. So, your data is not saving anywhere else. It uses Pinia (vue 3 state management) module to save your form data in your browser.

@@ -1,0 +1,33 @@
+button:
+  about: Acerca de
+  back: Atrás
+  go: Ir
+  home: Inicio
+  toggle_dark: Alternar modo oscuro
+  toggle_langs: Cambiar idiomas
+  choose-plans: Elija planes 
+intro:
+  desc: Plantilla de Inicio de Vite Dogmática. Personalizado para admitir el patrón de arquitectura modular.
+  dynamic-route: Demo de ruta dinámica
+  hi: ¡Hola, {name}!
+  aka: También conocido como
+  whats-your-name: ¿Cómo te llamas?
+  whats-your-email: ¿Cuál es tu correo electrónico?
+  fill-up-form: Complete el formulario para continuar
+not-found: No se ha encontrado
+order:
+  order-summary: Resumen de la orden
+  description: ¡Ahora puede escuchar millones de canciones, audiolibros y podcasts en cualquier dispositivo en cualquier lugar que desee!
+  plan: Plan
+  year: año
+  month: mes
+  week: semana
+  plans:
+    annual: Anual
+    monthly: Mensual
+    weekly: Semanalmente
+  confirm-selected-plan: Confirmar plan seleccionado
+  cancel-order: Cancelar orden
+  thanks-message: ¡Gracias por su interés!
+  plan-contact-info: Uno de nuestros empleados se comunicará con usted pronto. Mientras tanto, puedes tomar una taza de café.
+no-data-saved: Este proyecto de demostración no realiza ninguna solicitud de API externa. Por lo tanto, sus datos no se guardan en ningún otro lugar. Utiliza el módulo Pinia (gestión de estado vue 3) para guardar los datos de su formulario en su navegador.
