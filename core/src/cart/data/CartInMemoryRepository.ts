@@ -14,12 +14,11 @@ export class CartInMemoryRepository implements CartRepository {
       quantity: 3,
     },
     {
-      id: '2',
-      image:
-        'https://m.media-amazon.com/images/I/81HnHYik58L._AC_UL640_FMwebp_QL65_.jpg',
-      title: 'Element Vertical SS tee Shirt, Hombre',
-      price: 21.95,
-      quantity: 1,
+      id: '3',
+      image: "https://m.media-amazon.com/images/I/81ZYZ9yl1hL._AC_UL640_FMwebp_QL65_.jpg",
+      title: 'Element Skater Backpack Mohave 15" Saison ',
+      price: 52.45,
+      quantity: 1
     },
   ]);
 

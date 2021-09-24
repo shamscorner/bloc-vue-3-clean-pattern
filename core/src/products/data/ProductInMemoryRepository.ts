@@ -11,12 +11,6 @@ const products = [
 		price: 19.95,
 	},
 	{
-		id: "2",
-		image: "https://m.media-amazon.com/images/I/81HnHYik58L._AC_UL640_FMwebp_QL65_.jpg",
-		title: "Element Vertical SS tee Shirt, Hombre",
-		price: 21.95,
-	},
-	{
 		id: "3",
 		image: "https://m.media-amazon.com/images/I/81ZYZ9yl1hL._AC_UL640_FMwebp_QL65_.jpg",
 		title: 'Element Skater Backpack Mohave 15" Saison ',
