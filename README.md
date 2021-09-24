@@ -1,4 +1,4 @@
-# Separating business logic from UI frameworks (React, Vue, Svelte, Angular, etc.)
+# Separating business logic from UI frameworks (React, Vue, Svelte, Angular, etc.) using clean architecture pattern
 
 ![Moving away from the framework](https://raw.githubusercontent.com/shamscorner/images/main/bloc-pattern.png)
 
@@ -6,7 +6,7 @@ A Vue 3 project with Typescript to mimic the Bloc architecture pattern. (Flutter
 
 If you want to create a frontend application, there are many frameworks to choose from (React, Vue.js, Angular, Svelte, etc.). Let's say you select one of these frameworks and start developing your project. But on the long run if you want to change with something else, you have to change the entire codebase from start to finish. And that's why moving away from frameworks and separating the core business logics will give you the ultimate power to avoid those mistakes in the future.
 
-I have read this awesome blog post - [moving away from framework on frontend using clean architecture](http://xurxodev.com/frontend-clean_architecture/) and decided to use that approach on my own. Turned out, implementing the clean architecture pattern on (Vue 3 + Typescript) project is not that big of a deal at all.
+I have read this awesome blog post - [moving away from framework on frontend using clean architecture](http://xurxodev.com/frontend-clean_architecture/) and decided to use that approach on my own. Turned out, implementing the clean architecture pattern on (Vue 3 + Typescript) project is not that big of a deal.
 
 ## Overview
 
@@ -15,7 +15,7 @@ In this demo project you will find 2 folders,
 * `core` - the core business logic
 * `vue3-app` - the UI framework to show the frontend views
 
-This is basically a `products - cart` project where you can do the following functionalities,
+This is basically a `products - cart` project where you will see the following functionalities,
 
 * add products to cart
 * remove products from cart
@@ -26,7 +26,7 @@ This is basically a `products - cart` project where you can do the following fun
 ## Project Structures
 
 ### Inside the `core` folder
-Here inside the `src` folder, you will find 3 folders. One for the `common` functionalities and the other two are responsible for `products` and `cart` management respectively. The breakdown is as follows,
+Inside the `src` folder, you will find 3 folders. One for the `common` functionalities and the other two are responsible for `products` and `cart` management respectively. The breakdown is as follows,
 
 - **products**
 	- data
@@ -100,13 +100,13 @@ Here you will find the following folders under `src/`,
 	- components
 	- pages
 
-	As you can see, this is very similar with the base folder structure of the `core` setup mentioned earlier.
+As you can see, this is very similar with the base folder structure of the `core` setup mentioned earlier.
 
 ## Why move away from the framework?
 
 These are the advantages you will encounter while developing your project.
 
-* It is well structured and you will find the attribute what you are looking for pretty easily.
+* It is well structured and you will find the attributes you are looking for pretty easily.
 * Everything is modular design by its nature.
 * You can infinitely introduce new feature without breaking any changes.
 * UI library or framework is not tightly coupled to the business logic. So if you want to change your frontend framework from **vue** to **react** later for some reason, just replace the UI part and you are good to go.
@@ -128,7 +128,7 @@ $ yalc publish
 ```
 **note:** install [pnpm](https://pnpm.io/) and [yalc](https://www.npmjs.com/package/yalc)
 
-**step 3** - setup vue app
+**step 3** - setup `vue app`
 ```
 $ cd vue3-app
 $ pnpm install
@@ -143,7 +143,7 @@ Checkout [this article](https://www.viget.com/articles/how-to-use-local-unpublis
 $ pnpm dev
 ```
 
-### If you want to make some changes to the `core` folder, then you have to do the following after changes.
+### If you want to make some changes to the `core` folder, then you have to do the following after each changes.
 
 ```
 $ cd core
@@ -158,4 +158,4 @@ $ cd vue3-app
 $ yalc update
 ```
 
-Have Coding :)
+Happy Coding :)
