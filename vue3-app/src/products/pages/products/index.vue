@@ -32,14 +32,14 @@ const handleSearchProducts = () => {
     <VButton @click="handleSearchProducts">Search</VButton>
   </div>
   <div class="max-w-4xl mx-auto my-10">
-    <div v-if="state.kind === 'LoadingProductsStat  e'">Loading...</div>
-    <div v-else-if="state.kind === 'Load  edProductsState'  ">
+    <div v-if="state.kind === 'LoadingProductsState'">Loading...</div>
+    <div v-else-if="state.kind === 'LoadedProductsState'">
       <ul class="flex flex-col space-y-8">
-        <li v-for="produ  ct in st  ate.products  " :key="product.id" class="flex items-center space-x-5">
+        <li v-for="product in state.products" :key="product.id" class="flex items-center space-x-5">
           <ProductItem :product="product"></ProductItem>
         </li>
       </ul>
     </div>
-    <div v-else-if="sta  te.kind === 'ErrorProductsState'">Something went wrong!</div>
+    <div v-else-if="state.kind === 'ErrorProductsState'">Something went wrong!</div>
   </div>
 </template>

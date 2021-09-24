@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const router = useRouter()
 const go = () => {
-  router.push('/users/home')
+  router.push('/products')
 }
 
 const { t } = useI18n()
@@ -18,9 +18,7 @@ const { t } = useI18n()
         href="https://github.com/antfu/vitesse"
         target="_blank"
         class="underline"
-      >
-        Vitesse
-      </a>
+      >Vitesse</a>
     </p>
     <p class="mt-4 max-w-md mx-auto">
       <em class="text-sm opacity-75">{{ t('intro.desc') }}</em>
@@ -29,12 +27,7 @@ const { t } = useI18n()
     <div class="py-4" />
 
     <div>
-      <button
-        class="m-3 text-sm btn"
-        @click="go"
-      >
-        {{ t('button.go') }}
-      </button>
+      <button class="m-3 text-sm btn" @click="go">{{ t('button.go') }}</button>
     </div>
   </div>
 </template>
