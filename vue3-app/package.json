@@ -12,9 +12,9 @@
     "@vueuse/head": "^0.6.0",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.0-rc.9",
+    "pkg-bloc-core": "file:.yalc/pkg-bloc-core",
     "prism-theme-vars": "^0.2.2",
     "vue": "^3.2.16",
-    "vue-bloc-core": "file:.yalc/vue-bloc-core",
     "vue-demi": "^0.11.4",
     "vue-i18n": "^9.1.7",
     "vue-router": "^4.0.11"

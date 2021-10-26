@@ -1,5 +1,5 @@
 <template>
-  <img :src="props.item.image" alt class="w-10 h-auto" />
+  <img :src="props.item.image" class="w-10 h-auto" />
   <div class="text-left">
     <div class="text-lg">{{ props.item.title }}</div>
     <div class="text-sm text-gray-400">
@@ -17,7 +17,7 @@
 </template>
 
 <script setup lang="ts">
-import { CartPloc } from 'vue-bloc-core'
+import { CartPloc } from 'pkg-bloc-core'
 
 interface Props {
   item: {

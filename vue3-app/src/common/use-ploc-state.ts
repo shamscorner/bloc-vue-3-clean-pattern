@@ -1,4 +1,4 @@
-import { Ploc } from 'vue-bloc-core'
+import { Ploc } from 'pkg-bloc-core'
 
 import { DeepReadonly, onMounted, onUnmounted, readonly, Ref, ref } from 'vue'
 

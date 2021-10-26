@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { dependenciesLocator } from 'vue-bloc-core'
+import { dependenciesLocator } from 'pkg-bloc-core'
 
 // https://github.com/vueuse/head
 // you can use this to manipulate the document head in any components,

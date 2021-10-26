@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { dependenciesLocator } from 'vue-bloc-core'
+import { dependenciesLocator } from 'pkg-bloc-core'
 import { usePlocState } from '~/common/use-ploc-state'
 
 const ploc = dependenciesLocator.provideProductsPloc()

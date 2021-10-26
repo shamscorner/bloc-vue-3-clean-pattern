@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { CartPloc } from 'vue-bloc-core'
+import { CartPloc } from 'pkg-bloc-core'
 import { usePlocState } from '~/common/use-ploc-state'
 
 const ploc = inject<CartPloc>('cartPloc') as CartPloc
